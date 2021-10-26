@@ -1,0 +1,31 @@
+key,value,description,modification_frequency,category,note
+exp_input_file,input_experiment/factorial_experiment.csv,file describing how the assay is run,2,experiment setup,modify this file
+coord0,1_6,row and column indices of the cells describing the primary variable,2,experiment setup,refer to exp_input_file
+coord1,2_6,row and column indices of the cells describing the secondary variable,2,experiment setup,refer to exp_input_file
+nsub0,4,number of options of the primary variable in each sub experiment,2,experiment setup,determine based on nperplate and nrep
+nsub1,5,number of options of the secondary variable in each sub experiment,2,experiment setup,determine based on nperplate and nrep
+nrep,4,number of replicates,2,experiment setup,
+reverse_var,1,"0/1, reverse the order of variables to sort ",2,experiment setup,"check output, modify if necessary"
+assay_plate_prefix,IVL_Plate_v3_96cassettes_ABformat,assay plate,2,instrument,
+nplate,1,number of plate,2,instrument,
+nperplate,96,number of strips per plate,2,instrument,
+ncol,6,number of columns of strips on each plate,2,instrument,
+plate_df_file,input_instrument/reagent_plates.csv,file describing the plates to hold solutions,2,instrument,"usually do not need change, modify if necessary"
+time_df_file,input_instrument/exp_time.csv,file describing how much time each step takes,2,instrument,update if necessary
+sol_df_file,input_liquid/solutions.xlsx,file describing available solutions,2,liquid,modify this file
+liquid_type_df_file,input_liquid/liquid_type.csv,file describing liquid types for solutions in sol_df_file,2,liquid,modify this file
+diluent,water,diluent,2,liquid,modify if necessary
+prefix,factorial_experiment,prefix for naming,1,,
+output_dir,output_run_assay_worklist,output directory of worklists to run the assay,1,,
+full_dir,output_full_worklist,output directory of full worklists,1,,
+asp_mixing,0,"mixing while aspiration, fixed at 0 for now",1,liquid,"usually 0, change to a positive number to mix every time, or specifiy mixing by adding ""mix[number of times]"" in the liquid class in factorial_experiment.csv"
+delimiter_cell,",",delimiter to separate different options in cells of exp_input_file,0,,
+delimiter_col,_,"delimiter to separate row and column indices, used internally",0,,
+npergroup,8,number of transfer steps per group,0,,
+dispense_type,Jet_Empty,"dispense type, Jet_Empty for running the assay",0,,
+nzfill,4,"number of digits after filling with leading zeros, fixed at 4 as dictated by the Hamilton software",0,,
+sort_by_col,0,"0/1, sort by column, 0 in most cases, use in case of row-first numbering in the definition of the assay plate",0,,
+export_intermediate,1,"0/1, usually 1, to export intermediate files",0,,
+reservoir_tag,ivl_1,"tag describing the reservoir, usually not changed",0,,
+assay_plate_tag,IVL_Plate_,"tag marking the assay plate, usually not changed",0,,
+tip_size_string,"50, 300, 1000","list of tip sizes, usually not changed",0,,

@@ -1,0 +1,7 @@
+step,dx,dz,volume,liquid_class,time,source
+conjugate,13,0.2,1,watermix,-1,conj-CNB-3h8
+capture,13,0.2,1,water,-1,"cap-b,cap-d-H-low,cap-d-H-high,cap-d-M-low"
+sample,13,0.2,5,plasmamix5,0,"sample-pv-00,sample-pv-01,sample-pf-00,sample-neg-00,sample-neg-01"
+rb,0,1.0,75,pbst,1200,rb-current
+imaging,24,0.0,0,imaging,600,camera
+imaging,24,0.0,0,imaging,0,camera

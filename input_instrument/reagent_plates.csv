@@ -1,0 +1,4 @@
+plate,volume_well,nrow,ncol,volume_holdover
+ivl_1_flat_v1,40000,1,1,800
+ivl_96_dw_v1,1000,8,12,60
+ivl_384_flat_v1,90,16,24,40

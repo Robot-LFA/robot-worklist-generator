@@ -1,0 +1,12 @@
+source,volume_total,from_plate,from_well,step,step_index,volume_ul
+cap-b,60.0,ivl_384_flat_v1_0001,1,capture,2,20.0
+cap-d-H-high,60.0,ivl_384_flat_v1_0001,3,capture,2,20.0
+cap-d-H-low,60.0,ivl_384_flat_v1_0001,5,capture,2,20.0
+cap-d-M-low,60.0,ivl_384_flat_v1_0001,7,capture,2,20.0
+conj-CNB-3h8,140.0,ivl_96_dw_v1_0001,1,conjugate,1,80.0
+sample-neg-00,140.0,ivl_96_dw_v1_0001,9,sample,3,80.0
+sample-neg-01,140.0,ivl_96_dw_v1_0001,10,sample,3,80.0
+sample-pf-00,140.0,ivl_96_dw_v1_0001,11,sample,3,80.0
+sample-pv-00,140.0,ivl_96_dw_v1_0001,12,sample,3,80.0
+sample-pv-01,140.0,ivl_96_dw_v1_0001,13,sample,3,80.0
+rb-current,6800.0,ivl_1_flat_v1_0001,1,rb,4,6000.0

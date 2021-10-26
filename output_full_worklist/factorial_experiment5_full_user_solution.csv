@@ -1,0 +1,9 @@
+solution,plate_well,user_input
+rb-current,ivl_1_flat_v1_0001|1,2300.0
+cap-c-L-high,ivl_384_flat_v1_0001|1,60.0
+conj-CNB-3h8,ivl_384_flat_v1_0001|17,60.0
+sample-neg-00,ivl_384_flat_v1_0001|33,60.0
+sample-neg-01,ivl_384_flat_v1_0001|35,60.0
+sample-pf-00,ivl_384_flat_v1_0001|37,60.0
+sample-pv-00,ivl_384_flat_v1_0001|39,60.0
+sample-pv-01,ivl_384_flat_v1_0001|41,60.0
